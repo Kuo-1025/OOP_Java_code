@@ -2,14 +2,14 @@ class CRectangle {
     int width, height;
 
     public CRectangle(int w, int h) {
-        // (a) define constructor -> CRectangle and arguments are w, h.
+        // (a) Define constructor -> CRectangle with arguments are w, h.
 
         width = w;
         height = h;
     }
 
     public CRectangle() {
-        // (b) Define constructor -> CRectangle and no argument.
+        // (b) Define constructor -> CRectangle without arguments.
 
         width = 10;
         height = 8;
@@ -17,10 +17,8 @@ class CRectangle {
 
     /*
      * public CRectangle() {
-     * 
-     * (c) Define constructor -> CRectangle and no argument, but using "this()" to
-     * initialize your width and height.
-     * 
+     * (c) Define constructor -> CRectangle without argument, but using "this()" to
+     * initialize width and height.
      * 
      * this(10,8);
      * }
