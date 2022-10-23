@@ -22,7 +22,7 @@ class Caaa {
 }
 
 class Cbbb extends Caaa {
-    // Creat a class and extends from Caaa -> Cbbb()
+    // Creat a class and inherits Caaa -> Cbbb()
 
     public Cbbb() {
         // To call the constructor from parent class.
