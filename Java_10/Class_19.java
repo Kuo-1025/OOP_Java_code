@@ -2,7 +2,12 @@ class CRectangle {
     protected int length, width;
 
     public CRectangle(int l, int w) {
-        // (a)
+        /*
+         * (a)
+         * 
+         * Create a constructor with two arguments l and w respectively,
+         * then set length to l and width to w.
+         */
 
         length = l;
         width = w;
