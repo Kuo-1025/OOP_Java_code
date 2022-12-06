@@ -1,7 +1,7 @@
 public class Class17 {
     public static void main(String[] argv) {
 
-        System.out.println("The range of short is from " + Short.MIN_VALUE + " to " + Short.MAX_VALUE + '.');
+        System.out.println("The range of short is from " + Short.MIN_VALUE + " to " + Short.MAX_VALUE + ".\r\n");
 
         String str = "262904713";
         short res = 0;
@@ -22,8 +22,9 @@ public class Class17 {
          * System.out.println(str + " is out of the range of short ! ! !");
          * 
          * }
-         * 
-         * System.out.println(res);
          */
+
+        System.out.println(str + " * 2 = " + res * 2);
+
     }
 }
