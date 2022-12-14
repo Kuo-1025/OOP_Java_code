@@ -26,9 +26,9 @@ public class Class10 {
         CCircle cir = new CCircle();
         try {
             cir.setRadius(48763);
-        } catch (RadiusTooLarge e) { // catch the exception setRadius throwed.
+        } catch (RadiusTooLarge e) { // catch the exception thrown by setRadius .
             System.out.println(e + " throwed");
-        } catch (RadiusIsNegative e) { // catch the exception setRadius throwed.
+        } catch (RadiusIsNegative e) { // catch the exception thrown by setRadius .
             System.out.println(e + " throwed");
         }
         cir.show();
