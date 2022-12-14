@@ -20,7 +20,7 @@ public class Class13 {
         System.out.println(s);
     }
 
-    // Build is520(), and throw Exception520 if the value of string is "520".
+    // Build is520(), and throws Exception520 if the value of string is "520".
     public static void is520(String s) throws Exception520 {
         if (s.equals("520"))
             throw new Exception520();
