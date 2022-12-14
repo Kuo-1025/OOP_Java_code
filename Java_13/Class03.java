@@ -2,7 +2,7 @@ public class Class03 {
     public static void main(String[] argv) {
         int num = 12, den = 0, ans = 48763;
 
-        // Use try-catch-finally to avoid the problem about divid zero.
+        // Use try-catch-finally to avoid the problem about divid by zero.
         try {
             ans = num / den;
         } catch (ArithmeticException e) {
