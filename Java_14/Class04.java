@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class Class04 {
     public static void main(String[] argv) throws IOException {
-        FileReader Fr = new FileReader("C:/Users/user/OneDrive/文件/GitHub/OOP_Java_code/Java_14/donkey.txt");
+        FileReader Fr = new FileReader("C:\\Users\\user\\OneDrive\\文件\\GitHub\\OOP_Java_code\\Java_14\\donkey.txt");
         // Read the file.
 
         char info[] = new char[128];
