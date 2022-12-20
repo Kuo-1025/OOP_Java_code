@@ -10,7 +10,7 @@ public class Class04 {
 
         int res = Fr.read(info);
         /*
-         * (a) First, put the charactor from the file into info[], then return its
+         * (a) First, put the character from the file into info[], then return its
          * length.
          */
 
