@@ -1,4 +1,4 @@
-import java.util.Scanner; // Import related class in Java class library which you need.
+import java.util.Scanner; // Import related class which you need from Java class library.
 import java.lang.String;
 
 public class Class02 {
