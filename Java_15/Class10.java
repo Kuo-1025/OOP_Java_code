@@ -8,7 +8,7 @@ class CTest implements Runnable {
     public void run() {
         for (int i = 1; i <= 5; i++) {
             try {
-                Thread.sleep(1500L); // Delay 1.5 seconds.
+                Thread.sleep((long) (Math.random() * 3)); // Delay 0 ~ 2 seconds. ( Math.random() * 3 -> [0, 3) )
             } catch (Exception e) { // And it throws InterruptedException, so we need to catch it.
 
             }
