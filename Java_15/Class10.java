@@ -1,4 +1,4 @@
-class CTest extends Thread {
+class CTest implements Runnable {
     String id;
 
     public CTest(String str) {
@@ -19,10 +19,15 @@ class CTest extends Thread {
 
 public class Class10 {
     public static void main(String[] argv) {
-        CTest hi = new CTest("Hello");
-        CTest bye = new CTest("Good bye");
-        CTest morning = new CTest("Good morning");
-        CTest night = new CTest("Good night");
+        CTest Hi = new CTest("Hello");
+        CTest Bye = new CTest("Good bye");
+        CTest Morning = new CTest("Good morning");
+        CTest Night = new CTest("Good night");
+
+        Thread hi = new Thread(Hi);
+        Thread bye = new Thread(Bye);
+        Thread morning = new Thread(Morning);
+        Thread night = new Thread(Night);
 
         hi.start();
         bye.start();
